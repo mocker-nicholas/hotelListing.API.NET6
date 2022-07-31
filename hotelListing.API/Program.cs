@@ -1,6 +1,7 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using hotelListing.API.Data;
 using Serilog;
+using hotelListing.API.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
